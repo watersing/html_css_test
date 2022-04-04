@@ -8,4 +8,34 @@
 <body>
 
 </body>
+<script>
+    let array = ["a","b","c"];
+    //增强for
+    for (let e of array) {
+
+        console.log(e);
+    }
+
+    for (let index in array){
+        console.log(index);
+        console.log(array[index]);
+    }
+
+</script>
+<script>
+    let jsOpj={
+        name : "xx",
+        age :18,
+        marrid:true
+    }
+  //  console.log(jsOpj.name);
+    for (let index in jsOpj) {
+        console.log(index+","+jsOpj[index]);
+    }
+    for (let jsOpjKey in jsOpj) {
+
+        console.log(jsOpjKey+jsOpj[jsOpjKey]);
+
+    }
+</script>
 </html>

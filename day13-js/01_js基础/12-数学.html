@@ -5,7 +5,7 @@
     <title>13-数学</title>
 
 </head>
-<body>
+
 <body>
 <!--
 数学运算
@@ -20,10 +20,21 @@
 <script >
     let n = 1234.567
     //1. 四舍五入取整
+    var number = Math.round(n);
+    console.log(number);
+
     //2. 向下取整
+    var number4 = Math.floor(n);
+    console.log(number4);
     //3. 向上取整
+    var number3 = Math.ceil(n);
+    console.log(number3);
+
     //4. 产生随机数
-    //5. 产生 [1,10]的随机整数
+    for(let i=0; i<10; i++){
+        var number2 = Math.random();
+        console.log(number2);
+    }
 </script>
 </body>
 </html>

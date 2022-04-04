@@ -5,6 +5,27 @@
     <title>Title</title>
 </head>
 <body>
+ <table border="1px" cellspacing="0px" cellpadding="5px"></table>
 
 </body>
+<script>
+    document.write(" <table border=\"1px\" cellspacing=\"0px\" cellpadding=\"5px\">")
+
+    for (let i=1;i<=9;i++){
+        document.write("<tr>")
+
+        for (let j = 1; j < i; j++) {
+
+            document.write("<td>");
+
+            let str =j+"x"+i +"=" +(i*j);
+            document.write(str)
+
+            document.write("</td>")
+        }
+        document.write("</tr>")
+
+    }
+document.write("</table>");
+</script>
 </html>

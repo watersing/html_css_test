@@ -15,11 +15,26 @@
 
 -->
 
-<script type="text/javascript">
-    // ------------ 1. 构造字符串对象可以使用  双引号,单引号,反引号
 
-    // ------------ 2. 字符串常用方法
-
-</script>
 </body>
+<script>
+    let a= 'abc'
+    let b="abc"
+    let c= `abc`
+
+    let money =90;
+    let str ="这件衣服卖"+money+"元"
+    let str1 =   `这件衣服卖${money}元`
+    console.log(str);
+    console.log(str1);
+</script>
+<script>
+    let str2 = "abcdef";
+    let s = str2.substring(2,3)//截取3个
+    console.log(s);
+    let s2 = str2.substr(2,3)//截取到3索引
+    console.log(s2);
+    let s3 = str2.toUpperCase()
+    console.log(s3);
+</script>
 </html>

@@ -8,4 +8,31 @@
 <body>
 
 </body>
+<script>
+    function method01(){
+        console.log("method01");
+    }
+    method01();
+
+    let method02 =function (){
+        console.log("method02");
+    }
+    method02();
+</script>
+
+<script>
+    let jsObj ={
+        name :"zs",
+        age:18,
+        speak :function (){
+            console.log("我叫"+this.name);
+        },
+        show(){
+         console.log("ssd")
+        }
+    }
+    jsObj.speak()
+    jsObj.show()
+
+</script>
 </html>

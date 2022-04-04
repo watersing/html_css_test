@@ -16,7 +16,28 @@
        2. 数组常用方法
 
 -->
+<script>
+    /*
+    *   数组创建
+    *   1. let array = new Array('a','b','c')
+    *
+    *   2. let array = ['a','b','c']  // 推荐, 中括号
+    *
+    *       a. 数组中的元素可以不是同一种类型
+    *       b. 数组可以动态扩容
+    * */
+    // let array = new Array('a','b','c')
 
+    let array2 = ['a','b','c',100]
+    console.log("长度:" + array2.length);
+
+    array2[5] = true
+    console.log("长度2:" + array2.length);
+
+    for(let element of array2){
+        console.log(element);
+    }
+</script>
 <script>
     //1. 创建数组
     //2. 数组合并

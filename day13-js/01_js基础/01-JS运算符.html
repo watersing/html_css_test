@@ -9,9 +9,54 @@
 
 <script>
     // 算数运算符
-
+//== 和===的区别  == 只比字面值,不比类型 === 还比类型
 
     // 比较运算符
+    let a =100;
+    let b="100";
+    console.log(a==b);
+    console.log(a===b);
+    let e = 1>0? "是":"不是";
+    console.log(e)
+</script>
+<script>
+    console.log(e)
+    let  d =100;
+    let f= "abc";
+    console.log(d+f);
+
+    let  g=100;
+    let h= false; // true 101
+    console.log(g+h);//100
+
+
+    let W= "abc";
+    if(W){
+        console.log("true");
+    }else {
+        console.log("false")
+    }
+
+    let y= "";
+    if(y){
+        console.log("true");
+    }else {
+        console.log("false")
+    }
+    let x= "";
+    if(x.length !=0){
+        console.log("true");
+    }else {
+        console.log("false")
+    }
+
+    let z= 1;
+    if(z){
+        console.log("trueZ");
+    }else {
+        console.log("falseZ")
+    }
+
 </script>
 </body>
 </html>

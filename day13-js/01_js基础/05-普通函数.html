@@ -8,4 +8,31 @@
 <body>
 
 </body>
+<script>
+    function method01(){
+        console.log("hello");
+    }
+    method01();
+
+    function method02(a,b){
+        console.log(a+b);
+    }
+    method02(1,2);
+    function method03(a,b){
+        return(a+b);
+    }
+    let result = method03(1,3);
+    console.log(result);
+
+    function method04(){
+        let sum=0;
+        for (let i = 0; i < arguments.length; i++) {
+            sum+=arguments[i]
+        }
+        return sum;
+    }
+    let result4 = method04(1,2,3,4,5);
+    console.log(result4);
+
+</script>
 </html>

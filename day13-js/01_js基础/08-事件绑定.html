@@ -6,7 +6,23 @@
 
 </head>
 <body>
-    <input type="button" value="普通函数"> <br>
-    <input type="button" value="匿名函数"> <br>
+<!--click-->
+    <input type="button" value="普通函数" onclick="method01()"> <br><br>
+
+    <input type="button" value="匿名函数" id="btn"> <br>
+
 </body>
+<script>
+    function method01(){
+        console.log("hello");
+    }
+
+</script>
+<script>
+    let btn =document.getElementById("btn")
+
+     btn.onclick = function (){
+        console.log("hello2");
+    }
+</script>
 </html>
